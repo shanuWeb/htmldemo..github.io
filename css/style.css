@@ -17,8 +17,9 @@ a{
 	width:1360px; 
 	margin:0 auto;
 }
-.container{
+.container_bg{
 	background: #fff;
+	box-shadow: 0 0 3px 2px rgba(0,0,0,0.3);
 }
 .site-header {
 	position: fixed;
