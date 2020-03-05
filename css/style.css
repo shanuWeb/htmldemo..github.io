@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.4.1/css/all.css");
+
 body {
 	color: #7d7d7d;
 	font-size: 15px;
@@ -13,13 +15,13 @@ a{
 	-moz-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+.full_bg {
+	background: #fff;
+	box-shadow: 0 22px 20px 8px rgba(0,0,0,0.5);
+}
 .wrapper{
 	width:1360px; 
 	margin:0 auto;
-}
-.container_bg{
-	background: #fff;
-	box-shadow: 0 0 3px 2px rgba(0,0,0,0.3);
 }
 .site-header {
 	position: fixed;
@@ -30,6 +32,12 @@ a{
 	background-color: rgba(255,255,255,0.75);
 	top: 30px;
 	border: 1px solid #f60;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.site-header.fixed {
+	top: 0;
 }
 .toggle-terget{
 	display: none;
@@ -150,9 +158,9 @@ a{
 .banner-bottom {
 	color: #fcf9f8;
 	padding: 15px 0 20px;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	background-color: #ff6600;
-	margin-bottom: 50px;
+	margin-bottom: 0;
 }
 .banner-bottom p{
 	margin-bottom: 0;
@@ -235,18 +243,25 @@ a{
 	overflow: hidden;
 	margin: 50px 0;
 	background: #f60;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fc7500+0,fc7500+40,ffffff+100 */
+	background: #fc7500; /* Old browsers */
+	background: -moz-linear-gradient(left,  #fc7500 0%, #fc7500 40%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #fc7500 0%,#fc7500 40%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #fc7500 0%,#fc7500 40%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc7500', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
 }
 .section-title h2 {
 	margin: 0;
 	color: #fff;
 	font-size: 3em;
-	padding: 20px 10px 12px;
-	/* border-bottom: 1px solid #fff; */
+	padding: 14px 10px 5px;
+	border-bottom: 1px solid #fff;
 	margin-bottom: 10px;
-	text-align: center;
+	text-align: left;
 }
 .padded-section{
-	/*padding: 0 30px;*/
+	padding: 0 30px;
 }
 .home-two-col .images-holder, .nos-post .images-holder{
 	position: relative;
@@ -317,6 +332,12 @@ a{
 	text-decoration: none;
 }
 
+.home-two-col .images-holder .image-overlay a:hover, .nos-post .images-holder .image-overlay a:hover, .more-link:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #ff6600;
+}
+
 .subscribe-inner {
 	padding: 50px 50px 50px;
 	border-radius: 15px;
@@ -347,6 +368,11 @@ a{
 }
 .subscribe .submit-btn{
 	margin-left: -10px;
+}
+.submit-btn:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #ff6600;
 }
 .home-two-col {
 	margin: 0 0 40px;
@@ -387,6 +413,12 @@ a{
 	padding: 15px;
 	text-align: center;
 	border: 2px solid #f60;
+	display: block;
+}
+.heightlited:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #ff6600;
 }
 .site-footer{
 	color: #fff;
@@ -545,7 +577,7 @@ a{
 	margin-bottom: 20px;
 }
 .president-post{
-	padding: 20px;
+	padding: 0;
 }
 .president-post img{
 	width: 100%;
@@ -568,6 +600,12 @@ a{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+}
+
+.president-row h3{
+	font-size: 1.2em;
+	font-family: arial;
+	margin-bottom: 20px;
 }
 .notre-row{
 	margin-bottom: 20px;
@@ -738,7 +776,7 @@ a{
 	display: inline-block;
 }
 .fiche-post{
-	margin: 50px 0;
+	margin:0 0 50px;
 }
 .fiche-post .radio-inline{
 	color: #000;
@@ -889,4 +927,27 @@ a{
 }
 .footer-bottom h4{
 	font-size: 1.3em;
+}
+.gotopbtn{
+	color: #fff !important;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #f60;
+  bottom: 40px;
+  right: 50px;
+display: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+.extrapadding-section{
+	padding: 30px;
+}
+.president-post h4 {
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 1.25em;
 }
