@@ -32,6 +32,7 @@ a{
 	background-color: rgba(255,255,255,0.75);
 	top: 30px;
 	border: 1px solid #f60;
+	padding: 0 30px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
@@ -430,7 +431,7 @@ a{
 	font-weight: bold;
 }
 .footer-top{
-	padding: 20px;
+	padding: 20px 30px;
 	background-color: #ff6600;
 }
 .footer-top h4{
@@ -923,7 +924,7 @@ a{
 }
 .footer-bottom {
 	background: #dd5902;
-	padding: 40px 0;
+	padding: 40px 30px;
 }
 .footer-bottom h4{
 	font-size: 1.3em;
@@ -942,6 +943,7 @@ display: none;
   line-height: 50px;
   color: white;
   font-size: 22px;
+  transition: none;
 }
 .extrapadding-section{
 	padding: 30px;

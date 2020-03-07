@@ -203,15 +203,21 @@
 	.news-row .link{ text-align: center; }
 	.contact-right{ margin:0 -20px; padding: 20px; min-height: auto; }
 	.notreequipe-bottom .notreequipe-image{ width: 25%; }
+	.subscribe-footer .submit-btn{ margin-left: 0; }
+	.banner-content, .social-media{ padding: 20px; }
+	.subscribe .submit-btn{ margin-left: 0; }
 }
 
 
 @media screen and (max-width: 750px){
-
+	.section-title h2{ font-size: 2em; }
 }
 
 @media screen and (max-width: 700px){
 	.notreequipe-bottom .notreequipe-image{ width: 33.33%; }
+	.infractions ol li{ width: 100%; font-size: 1.2em; }
+	.padded-section {padding: 0 10px;}
+	.subscribe-inner {padding: 50px 20px 50px;}
 }
 
 @media screen and (max-width: 600px){
