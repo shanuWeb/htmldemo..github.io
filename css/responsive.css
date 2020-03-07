@@ -206,6 +206,10 @@
 	.subscribe-footer .submit-btn{ margin-left: 0; }
 	.banner-content, .social-media{ padding: 20px; }
 	.subscribe .submit-btn{ margin-left: 0; }
+	.fiche-post .radio-inline{ font-size: 1em; }
+	.fiche-post h4{ font-size: 1.2em; }
+	.president-post .container{padding:20px;background-color: #fff;}
+	.nos-post .container, .notre-post .container {padding: 20px;}
 }
 
 
