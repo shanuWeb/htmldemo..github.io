@@ -222,6 +222,7 @@
 	.infractions ol li{ width: 100%; font-size: 1.2em; }
 	.padded-section {padding: 0 10px;}
 	.subscribe-inner {padding: 50px 20px 50px;}
+	.document-row{ flex-wrap: wrap; }
 }
 
 @media screen and (max-width: 600px){
