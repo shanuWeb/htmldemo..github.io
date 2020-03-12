@@ -1,5 +1,5 @@
 jQuery(window).load(function(){
-
+$('.marquee').marquee();
 	//jQuery(".site-header").sticky({ topSpacing: 0, zIndex:99999 });
 	
 	var btn = jQuery('.toggle-terget .toggle-menu');
