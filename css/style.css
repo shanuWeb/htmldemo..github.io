@@ -426,6 +426,7 @@ a{
 }
 .site-footer{
 	color: #fff;
+	background: #f60;
 }
 .site-footer a{
 	color: inherit;
@@ -465,7 +466,8 @@ a{
 }
 .footer-copy {
 	padding: 20px 30px;
-	background: #dd5902;
+	/*background: #dd5902;*/
+	border-top: 2px solid #fff;
 }
 .banner-arrow{
 	text-align: center;
@@ -926,8 +928,9 @@ a{
 	margin-top: 50px;
 }
 .footer-bottom {
-	background: #dd5902;
+	/*background: #dd5902;*/
 	padding: 40px 30px;
+	border-top: 2px solid #fff;
 }
 .footer-bottom h4{
 	font-size: 1.3em;
@@ -962,4 +965,7 @@ display: none;
   width: 100%;
   overflow: hidden;
   background: transparent;
+}
+.plainte-post .full_bg{
+	padding: 0 30px;
 }
