@@ -446,8 +446,8 @@ a{
 	font-size: 1.1em;
 	line-height: 1.3;
 }
-.footer-bottom, .footer-copy{
-	font-size: 1.3em;
+.footer-bottom, .footer-copy {
+    font-size: 1.2em;
 }
 .footer-bottom ul li{
 	margin-bottom: 8px;
