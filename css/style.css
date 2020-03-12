@@ -63,6 +63,7 @@ a{
 	background-color: #9a7262;
 }
 .submenu {
+	    right: 0;
 	 visibility: collapse; 
 	 opacity: 0; 
 	position: absolute;

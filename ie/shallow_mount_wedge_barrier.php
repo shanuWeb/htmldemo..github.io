@@ -457,6 +457,7 @@
 
 
 <script src="js/jquery-1.9.1.min.js"></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js'></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/jquery.sticky.js"></script>
 <script src="js/owl.carousel.js"></script>
